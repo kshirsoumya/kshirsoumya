@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather-App</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <header>
+            <nav>
+                <div class="header">
+
+                    <a>Home</a>
+                    <a>Cities</a>
+                    <a>News</a>
+
+                </div>
+            </nav>
+        </header>
+        <div class="weather-details">
+            <h3>Weather Details</h3>
+            <div class="others" id="current-weather-items">
+
+                <div class="weather-items">
+                    <div>Cloudy</div>
+                    <div>15.2%</div>
+
+                </div>
+
+                <div class="weather-items">
+                    <div>Humidity</div>
+                    <div>75.2%</div>
+
+                </div>
+
+                <div class="weather-items">
+                    <div>Wind</div>
+                    <div>10km/h</div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="time-container">
+            <p>32°</p>
+            <h1>Mumbai</h1>
+            <div class="date-container">
+                <div class="time" id="time">
+                    12.30<span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+
+                    Friday, 24 March
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class=" city-heading">
+        <h1>Cities</h1>
+    </div>
+    <div class="cities">
+
+        <div class="card">
+            <div class="imgbox">
+                <img src="./cloud.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2>20°</h2>
+                <p>Delhi</p>
+                <p>24/03/23</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <h1 class="title-1">Cities</h1>
+            <div class="imgbox">
+                <img src="./sunny.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2>35°</h2>
+                <p>Chennai</p>
+                <p>24/03/23</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgbox">
+                <img src="./thunder-1.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h2>22°</h2>
+                <p>Pune</p>
+                <p>24/03/23</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="search">
+        
+        <input type="text" class="inputValue" placeholder=" Enter a city" name="search">
+        <i class="fa fa-search"></i></input>
+        <input type="submit" value="submit" class="button">
+        </form>
+    </div>
+
+    <div class="earth-img">
+        <img src="./earth.jpg" />
+    </div>
+
+    <div class="news">
+        <h2>News</h2>
+    </div>
+
+    <div class="card-news">
+
+        <div class="cards">
+            <img src="./rainy.jfif" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Rain in Mumbai</h3>
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="./manipur.jfif" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Cloudstorms in Manipur</h3>
+            </div>
+        </div>
+
+        <div class="cards">
+            <img src="./summer.jfif" alt="...">
+            <div class="card-body">
+                <h3 class="card-title">Summer season in Chennai</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="weather-app">
+            <p>WEATHERAPP</p>
+        </div>
+        <div class="li-items">
+            <ul>
+                <li>Home</li>
+                <li>Cities</li>
+                <li>News</li>
+            </ul>
+
+        </div>
+
+        <div class="contact">
+            <ul>
+                <li>Contact us</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
